@@ -588,8 +588,8 @@ a:hover {
   color: #dfd9c6;
 }
 /* Scroll to top button*/
-#scrollToTop a {
-  border-radius: 100px;
+.scrollToTop_wraper {
+  display: none;
 }
 #scrollToTop a i:before {
   content: '';
@@ -1794,74 +1794,74 @@ body {
 .cid-rxHeTLuN5P .dropdown-item:hover {
   color: #cccccc !important;
 }
-.cid-rxHeTN6LJJ {
+.cid-rxI2QiY3SX {
   padding-top: 135px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
-.cid-rxHeTN6LJJ .title {
+.cid-rxI2QiY3SX .title {
   padding-bottom: 2.5rem;
 }
-.cid-rxHeTN6LJJ h4 {
+.cid-rxI2QiY3SX h4 {
   width: 85%;
   font-weight: 500;
   margin-bottom: 0;
 }
-.cid-rxHeTN6LJJ .bottom-line p {
+.cid-rxI2QiY3SX .bottom-line p {
   color: #767676;
 }
-.cid-rxHeTN6LJJ .card-wrapper {
+.cid-rxI2QiY3SX .card-wrapper {
   background-color: #ffffff;
   background-color: transparent;
   position: relative;
   justify-content: unset;
 }
-.cid-rxHeTN6LJJ .card-wrapper .card-box {
+.cid-rxI2QiY3SX .card-wrapper .card-box {
   width: 100%;
 }
-.cid-rxHeTN6LJJ .card-wrapper .card-box .wrapper {
+.cid-rxI2QiY3SX .card-wrapper .card-box .wrapper {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
 }
-.cid-rxHeTN6LJJ .card-wrapper .card-box .wrapper .top-line {
+.cid-rxI2QiY3SX .card-wrapper .card-box .wrapper .top-line {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.cid-rxHeTN6LJJ .card-wrapper .card-box .wrapper .bottom-line {
+.cid-rxI2QiY3SX .card-wrapper .card-box .wrapper .bottom-line {
   width: 85%;
 }
 @media (max-width: 767px) {
-  .cid-rxHeTN6LJJ .card-wrapper .card-box .wrapper .bottom-line {
+  .cid-rxI2QiY3SX .card-wrapper .card-box .wrapper .bottom-line {
     width: 100%;
   }
-  .cid-rxHeTN6LJJ .card-wrapper .card-box .wrapper .bottom-line p {
+  .cid-rxI2QiY3SX .card-wrapper .card-box .wrapper .bottom-line p {
     text-align: center;
     margin: 1rem 0 0 0;
   }
 }
 @media (max-width: 767px) {
-  .cid-rxHeTN6LJJ .card.pb-5 {
+  .cid-rxI2QiY3SX .card.pb-5 {
     padding-bottom: 2rem !important;
   }
-  .cid-rxHeTN6LJJ .wrapper {
+  .cid-rxI2QiY3SX .wrapper {
     padding-top: 1rem;
   }
 }
-.cid-rxHeTN6LJJ H2 {
+.cid-rxI2QiY3SX H2 {
   color: #0186c4;
   text-align: center;
 }
-.cid-rxHeTN6LJJ .cost {
+.cid-rxI2QiY3SX .cost {
   text-align: left;
 }
 .cid-rxHpM9dZlf {
   padding-top: 60px;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-rxHpM9dZlf .title {
@@ -1918,6 +1918,68 @@ body {
   }
 }
 .cid-rxHpM9dZlf H2 {
+  color: #0186c4;
+  text-align: center;
+}
+.cid-rxI6meDwzc {
+  padding-top: 60px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rxI6meDwzc .title {
+  padding-bottom: 2.5rem;
+}
+.cid-rxI6meDwzc h4 {
+  width: 85%;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.cid-rxI6meDwzc .bottom-line p {
+  color: #767676;
+}
+.cid-rxI6meDwzc .card-wrapper {
+  background-color: #ffffff;
+  background-color: transparent;
+  position: relative;
+  justify-content: unset;
+}
+.cid-rxI6meDwzc .card-wrapper .card-box {
+  width: 100%;
+}
+.cid-rxI6meDwzc .card-wrapper .card-box .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cid-rxI6meDwzc .card-wrapper .card-box .wrapper .top-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cid-rxI6meDwzc .card-wrapper .card-box .wrapper .bottom-line {
+  width: 85%;
+}
+@media (max-width: 767px) {
+  .cid-rxI6meDwzc .card-wrapper .card-box .wrapper .bottom-line {
+    width: 100%;
+  }
+  .cid-rxI6meDwzc .card-wrapper .card-box .wrapper .bottom-line p {
+    text-align: center;
+    margin: 1rem 0 0 0;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rxI6meDwzc .card.pb-5 {
+    padding-bottom: 2rem !important;
+  }
+  .cid-rxI6meDwzc .wrapper {
+    padding-top: 1rem;
+  }
+}
+.cid-rxI6meDwzc H2 {
   color: #0186c4;
   text-align: center;
 }
@@ -3534,7 +3596,7 @@ body {
 }
 .cid-rxCAMFPIjo {
   padding-top: 90px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
   background-color: #ffffff;
 }
 .cid-rxCAMFPIjo .title {
